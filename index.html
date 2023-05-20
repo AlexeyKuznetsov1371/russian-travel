@@ -9,13 +9,11 @@
   </head>
   <body class="page">
     <header class="header">
-      <div class="header__logo">
-        <img src="./images/header-logo.svg" alt="Россия на карте">
-      </div>
-      <div class="header__lang-container">
-        <a href="#" class="header__lang-link-active">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </div>
+        <img class="header__logo" src="./images/header-logo.svg" alt="Россия на карте">
+        <ul class="header__lang">
+        <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li><a href="#" class="header__lang-link">En</a></li>
+        </ul>
     </header>
 
     <main class="content">
@@ -24,14 +22,12 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <div class="lead__image-container">
           <img
             class="lead__image"
             src="./images/lead-polka.jpg"
             alt="Девушка в поезде"
           >
-          <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
-        </div>
+          <p class="lead__caption">ваша полка - верхняя</p>
       </section>
 
       <section class="intro">
@@ -139,7 +135,7 @@
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a class="place__link" href="http://park-kosa.ru" target="_blank"
               >park-kosa.ru</a
             >
@@ -169,7 +165,7 @@
         <div class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -203,7 +199,7 @@
         <div class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link"
               href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -236,7 +232,7 @@
         <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link"
               href="https://vk.com/baikalmile"
@@ -268,7 +264,7 @@
         <div class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a class="place__link" href="http://vodlozero.ru" target="_blank"
               >http://vodlozero.ru/</a
             >
@@ -352,10 +348,8 @@
             >
           </li>
         </ul>
-        <div class="footer__copyright">
-          <p class="footer__author">© 2023. Кузнецов Алексей</p>
-        </div>
       </nav>
+      <p class="footer__author">© 2023. Кузнецов Алексей</p>
     </footer>
   </body>
 </html>
