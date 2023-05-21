@@ -1,9 +1,5 @@
 .cover {
-    background-image: url(../../images/cover-trains.jpg);
     display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: calc(100% - 96px);
     margin: 92px auto 92px auto;
   }
